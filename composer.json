@@ -1,0 +1,14 @@
+{
+    "name": "jaga/laravel-form-field-builder",
+    "description": "This is a simple laravel form field builder package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jagabandhu Roy",
+            "email": "jagabandhu020@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
