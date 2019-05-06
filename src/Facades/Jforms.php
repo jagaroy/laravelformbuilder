@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaga\LaravelFormFieldBuilder\Facades;
+namespace Jaga\LaravelFormBuilder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

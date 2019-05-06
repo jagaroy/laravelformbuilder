@@ -1,7 +1,7 @@
 {
-    "name": "jaga/laravel-form-field-builder",
+    "name": "jaga/laravelformbuilder",
     "description": "This is a simple laravel form field builder package.",
-    "type": "library",
+    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +10,30 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "Jaga\\LaravelFormBuilder\\": "packages/jaga/laravelformbuilder/src/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jaga\\LaravelFormBuilder\\": "packages/jaga/laravelformbuilder/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaga\\LaravelFormBuilder\\LaravelFormBuilderServiceProvider"
+            ],
+            "aliases": {
+                "Jforms": "Jaga\\LaravelFormBuilder\\Facades\\Jforms"
+            }
+        }
+    }
 }

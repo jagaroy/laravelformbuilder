@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaga\LaravelFormFieldBuilder\Tools;
+namespace Jaga\LaravelFormBuilder\Tools;
 
 use Illuminate\Http\Request;
 // use App\Http\Requests;

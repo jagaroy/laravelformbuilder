@@ -1,12 +1,12 @@
 <?php
 
-namespace Jaga\LaravelFormFieldBuilder;
+namespace Jaga\LaravelFormBuilder;
 
 use Illuminate\Support\ServiceProvider;
 
-use Jaga\LaravelFormFieldBuilder\Tools\Jforms;
+use Jaga\LaravelFormBuilder\Tools\Jforms;
 
-class LaravelFormFieldBuilderServiceProvider extends ServiceProvider
+class LaravelFormBuilderServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
