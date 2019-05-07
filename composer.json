@@ -1,7 +1,7 @@
 {
     "name": "jaga/laravelformbuilder",
     "description": "This is a simple laravel form field builder package.",
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
