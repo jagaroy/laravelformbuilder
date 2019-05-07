@@ -12,18 +12,13 @@
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ],
         "psr-4": {
-            "Jaga\\LaravelFormBuilder\\": "packages/jaga/laravelformbuilder/src/",
-            "App\\": "app/"
+            "Jaga\\LaravelFormBuilder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jaga\\LaravelFormBuilder\\": "packages/jaga/laravelformbuilder/src/"
+            "Jaga\\LaravelFormBuilder\\": "src/"
         }
     }
 }
