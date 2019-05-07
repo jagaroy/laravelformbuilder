@@ -25,15 +25,5 @@
         "psr-4": {
             "Jaga\\LaravelFormBuilder\\": "packages/jaga/laravelformbuilder/src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Jaga\\LaravelFormBuilder\\LaravelFormBuilderServiceProvider"
-            ],
-            "aliases": {
-                "Jforms": "Jaga\\LaravelFormBuilder\\Facades\\Jforms"
-            }
-        }
     }
 }
