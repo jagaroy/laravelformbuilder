@@ -15,10 +15,5 @@
         "psr-4": {
             "Jaga\\LaravelFormBuilder\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Jaga\\LaravelFormBuilder\\": "src/"
-        }
     }
 }
