@@ -15,5 +15,20 @@
         "psr-4": {
             "Jaga\\LaravelFormBuilder\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jaga\\LaravelFormBuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaga\\LaravelFormBuilder\\LaravelFormBuilderServiceProvider"
+            ],
+            "aliases": {
+                "Jforms": "Jaga\\LaravelFormBuilder\\Facades\\Jforms"
+            }
+        }
     }
 }
