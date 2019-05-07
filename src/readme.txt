@@ -1,1 +1,1 @@
-This is a simple laravel form field builder package..
+This is a simple laravel form field builder sample package..
