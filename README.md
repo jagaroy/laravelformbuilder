@@ -42,7 +42,7 @@ And Facade (also in `config/app.php`)
 
 ```
 ## Quick start
-If you have any question, please contact this email `jagabandhu020@gmail.com` and follow ### Sample example codes section. 
+If you have any question, please contact this email `jagabandhu020@gmail.com` and follow [Sample example codes](#sample-example-codes) section. 
 
 ##### Input tag:
 Just use this anywhere in your blade view as follows:
